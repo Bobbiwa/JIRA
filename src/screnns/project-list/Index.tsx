@@ -7,7 +7,7 @@ import useDebounce from '@/hooks/useDebounce'
 
 const apiUrl = process.env.REACT_APP_API_URL;
 
-export function Index() {
+export function ProjectListScreen() {
   const [param, setParam] = useState<Param>({ name: '', personId: undefined })
   const [user, setUser] = useState([])
   const [list, setList] = useState([])
